@@ -17,7 +17,6 @@ M140 S60                                   ; set bed temp
 M190 S60                                   ; wait for bed temp
 M109 S220                                  ; wait for extruder temp
 G28                                        ; move X/Y/Z to min endstops
-; G29                                      ; autolevel
 M420 S1                                    ; load saved mesh level data
 G1 Z0.28                                   ; lift nozzle a bit 
 G92 E0                                     ; zero the extruded length 
